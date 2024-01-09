@@ -2,7 +2,7 @@ import logo from '../../assets/logo.png'
 
 export const Navbar = () => {
     return (
-        <div className="container mx-auto mt-6">
+        <div className="mt-6">
             <div className="flex flex-row justify-between">
                 {/* Logo */}
                 <div className="">
