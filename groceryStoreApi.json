@@ -1,0 +1,711 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "tomates",
+            "category": "vegetales",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 2,
+            "name": "Pepinos",
+            "category": "vegetales",
+            "precio": "1.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 3,
+            "name": "Zanahorias",
+            "category": "vegetales",
+            "precio": "1.80",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 4,
+            "name": "Espárragos",
+            "category": "vegetales",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 5,
+            "name": "Pimientos Rojos",
+            "category": "vegetales",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 6,
+            "name": "Endibias",
+            "category": "vegetales",
+            "precio": "0.70",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 7,
+            "name": "Alcachofas",
+            "category": "vegetales",
+            "precio": "2.60",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 8,
+            "name": "Col",
+            "category": "vegetales",
+            "precio": "3",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 9,
+            "name": "Rábanos",
+            "category": "vegetales",
+            "precio": ".95",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 10,
+            "name": "Cebollas Blancas",
+            "category": "vegetales",
+            "precio": "1.20",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 11,
+            "name": "Papas",
+            "category": "vegetales",
+            "precio": "1.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 12,
+            "name": "Calabaciones",
+            "category": "vegetales",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 13,
+            "name": "Castaña",
+            "category": "frutos secos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 14,
+            "name": "Pistacho",
+            "category": "frutos secos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 15,
+            "name": "Almendra",
+            "category": "frutos secos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 16,
+            "name": "Avellanas",
+            "category": "frutos secos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 17,
+            "name": "Nueces",
+            "category": "frutos secos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 18,
+            "name": "Cacahuete",
+            "category": "frutos secos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 19,
+            "name": "Piñon",
+            "category": "frutos secos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 20,
+            "name": "Maní",
+            "category": "frutos secos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 21,
+            "name": "Pasas",
+            "category": "frutos secos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 22,
+            "name": "Semillas de Calabaza",
+            "category": "frutos secos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 23,
+            "name": "Fresas",
+            "category": "frutas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 24,
+            "name": "Uvas",
+            "category": "frutas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 25,
+            "name": "Maracuya",
+            "category": "frutas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 26,
+            "name": "Peras",
+            "category": "frutas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 27,
+            "name": "Manzanas",
+            "category": "frutas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 28,
+            "name": "Bananas",
+            "category": "frutas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 30,
+            "name": "Piñas",
+            "category": "frutas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 31,
+            "name": "Naranjas",
+            "category": "frutas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 32,
+            "name": "Sandias",
+            "category": "frutas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 33,
+            "name": "Albahaca",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 34,
+            "name": "Eneldo",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 35,
+            "name": "Ajo",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 36,
+            "name": "Jengibre",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 37,
+            "name": "Lavanda",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 38,
+            "name": "Oregano",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 39,
+            "name": "Romero",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 40,
+            "name": "Salvia",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 41,
+            "name": "Tomillo",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 42,
+            "name": "Menta",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 43,
+            "name": "Perejil",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 44,
+            "name": "Cilantro",
+            "category": "hierbas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 45,
+            "name": "Agua",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 46,
+            "name": "Coke",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 47,
+            "name": "Gatorade",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 48,
+            "name": "Vino",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 49,
+            "name": "Cerveza",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 50,
+            "name": "Bebida Energetica",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 51,
+            "name": "Te",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 52,
+            "name": "Leche",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 53,
+            "name": "Jugo de Frutas",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 55,
+            "name": "Vodka",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 56,
+            "name": "Cafe",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 57,
+            "name": "Refresco Dietetico",
+            "category": "bebidas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 58,
+            "name": "Salchichas",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 59,
+            "name": "Chorizos",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 60,
+            "name": "Salami",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 61,
+            "name": "Queso",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 62,
+            "name": "Huevos",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 63,
+            "name": "Tocineta",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 64,
+            "name": "Jamon",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 65,
+            "name": "Queso Crema",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 66,
+            "name": "Mortadela",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 67,
+            "name": "Salchichón",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 68,
+            "name": "Queso Parmesano",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 69,
+            "name": "Queso Azul",
+            "category": "charcuteria",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 70,
+            "name": "Tostadas con aguacate y huevo",
+            "category": "desayunos",
+            "precio": "3.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 71,
+            "name": "Yogur griego con frutas y granola",
+            "category": "desayunos",
+            "precio": "2.75",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 72,
+            "name": "Omelette de espinacas y queso feta",
+            "category": "desayunos",
+            "precio": "4.00",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 73,
+            "name": "Batido de proteínas con plátano y mantequilla de maní",
+            "category": "desayunos",
+            "precio": "3.25",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 74,
+            "name": "Bowl de acai con frutas y nueces",
+            "category": "desayunos",
+            "precio": "5.00",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 75,
+            "name": "Panqueques de avena con miel y bayas",
+            "category": "desayunos",
+            "precio": "4.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 76,
+            "name": "Panqueques de avena con miel y bayas",
+            "category": "desayunos",
+            "precio": "4.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 77,
+            "name": "Sandwich de desayuno con huevo, jamón y queso",
+            "category": "desayunos",
+            "precio": "3.75",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 78,
+            "name": "Cereal integral con leche de almendras",
+            "category": "desayunos",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 79,
+            "name": "Burrito de desayuno con frijoles, huevo y salsa",
+            "category": "desayunos",
+            "precio": "4.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 80,
+            "name": "Tazón de quinua con frutas y yogur:",
+            "category": "desayunos",
+            "precio": "4.75",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 81,
+            "name": "Sopa de pollo con fideos",
+            "category": "sopas",
+            "precio": "2.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 82,
+            "name": "Sopa de tomate con albahaca",
+            "category": "sopas",
+            "precio": "3.00",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 83,
+            "name": "Sopa de lentejas",
+            "category": "sopas",
+            "precio": "2.75",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 84,
+            "name": "Sopa de cebolla francesa",
+            "category": "sopas",
+            "precio": "3.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 85,
+            "name": "Sopa de pescado",
+            "category": "sopas",
+            "precio": "4.00",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 86,
+            "name": "Sopa de tortilla mexicana",
+            "category": "sopas",
+            "precio": "3.25",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 87,
+            "name": "Sopa de calabaza butternut",
+            "category": "sopas",
+            "precio": "3.75",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 88,
+            "name": "Sopa de patata y puerro",
+            "category": "sopas",
+            "precio": "3.00",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 89,
+            "name": "Sopa de mariscos",
+            "category": "sopas",
+            "precio": "4.50",
+            "origen": "Francia",
+            "img": "url"
+        },
+        {
+            "id": 90,
+            "name": "Sopa de miso",
+            "category": "sopas",
+            "precio": "3.00",
+            "origen": "Francia",
+            "img": "url"
+        }
+    ],
+
+    "categories":["Frutas", "Vegetales", "Frutos secos", "Bebidas", "Hierbas", "Charcuteria", "Desayunos", "Sopas" ]
+
+}

@@ -3,7 +3,6 @@ import { ListShopPage } from './shop/pages/ListShopPage'
 
 
 function ListShopApp() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

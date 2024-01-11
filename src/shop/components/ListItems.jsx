@@ -1,6 +1,8 @@
-import React from 'react'
+import {Item} from '.'
+import { getProducts } from '../../helpers/getProductsByCategory'
 
 export const ListItems = () => {
+  const products = getProducts('vegetales')
   return (
     <>
         {/* Options */}
@@ -37,8 +39,12 @@ export const ListItems = () => {
 
         {/* List Items */}
 
-        <div className='grid grid-cols-5'>
-            
+        <div className='grid grid-cols-5 mt-20 gap-10'>
+            {
+                products.map((product, id) => (
+                    <Item key={id} product={product}></Item>
+                ))
+            }
         </div> 
     </>
   )

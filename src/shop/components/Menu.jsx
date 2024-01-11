@@ -1,17 +1,15 @@
+import { getCategories } from "../../helpers/getCategories"
 
 export const Menu = () => {
+  const categories = getCategories()
   return (
     <div className="mt-12 mx-auto">
         <ul className="flex gap-12 justify-center">
-            <li className="hover:bg-green-800 hover:text-white hover:rounded-xl p-2">Frutas</li>
-            <li>Vegetales</li>
-            <li>Frutos Secos</li>
-            <li>Bebidas</li>
-            <li>Hierbas</li>
-            <li>Charcuteria</li>
-            <li>Bandejas</li>
-            <li>Desayunos</li>
-            <li>Sopas</li>
+          {
+            categories.map(category => (
+              <li className="hover:bg-green-800 hover:text-white hover:rounded-xl p-2 hover:shadow-md">{category}</li>
+            ))
+          }
         </ul>
     </div>
   )
