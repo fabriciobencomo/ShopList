@@ -1,6 +1,11 @@
+import { useParams } from "react-router-dom"
 import { Navbar, Menu, ListItems } from "../components"
 
 export const ListShopPage = () => {
+  
+  const {categoryName} = useParams()
+  const category = categoryName
+ 
   return (
     <div>
         <div className='shadow-lg rounded-lg p-4'>
@@ -10,7 +15,7 @@ export const ListShopPage = () => {
             </div>
       </div>
       <div className="container mx-auto">
-        <ListItems></ListItems>
+        <ListItems category={category}></ListItems>
       </div>
     </div>
   )

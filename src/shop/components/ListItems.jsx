@@ -1,8 +1,17 @@
 import {Item} from '.'
-import { getProducts } from '../../helpers/getProductsByCategory'
+import { getProductsByCategory } from '../../helpers/getProductsByCategory'
+import { getProducts } from '../../helpers/getProducts';
+import { useEffect } from 'react';
 
-export const ListItems = () => {
-  const products = getProducts('vegetales')
+
+export const ListItems = ({category}) => {
+
+
+    let products = getProducts()
+    if(category){
+        products = getProductsByCategory(category)
+    }
+    
   return (
     <>
         {/* Options */}
