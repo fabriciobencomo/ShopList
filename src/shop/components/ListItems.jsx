@@ -1,7 +1,6 @@
 import {Item} from '.'
 import { getProductsByCategory } from '../../helpers/getProductsByCategory'
 import { getProducts } from '../../helpers/getProducts';
-import { useEffect } from 'react';
 
 
 export const ListItems = ({category}) => {
@@ -11,6 +10,7 @@ export const ListItems = ({category}) => {
     if(category){
         products = getProductsByCategory(category)
     }
+
     
   return (
     <>

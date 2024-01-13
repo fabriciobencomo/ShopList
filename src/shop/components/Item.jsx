@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
-import logo from '../../assets/logo.png'
+import { useCartStore } from '../../hooks/useCartStore'
+import { useSelector } from 'react-redux'
 
 export const Item = ({product}) => {
 
   const [counter, setCounter] = useState(1)  
+  const {savingItemInCart} = useCartStore()
 
   const incrementCounterItem = () => {
     const result = counter + 1
@@ -11,13 +13,19 @@ export const Item = ({product}) => {
   }
 
   const decrementCounterItem = () => {
+    if(counter <= 1) return 
     const result = counter - 1
     setCounter(result)
+  } 
+
+  const handleAddClick = () => {
+    product.cantidad = counter
+    savingItemInCart(product)
   }
 
   return (
     <div>
-        <div class="max-w-sm rounded overflow-hidden shadow-xl">
+        <div class="max-w-sm rounded-lg overflow-hidden shadow-xl">
             <img class="w-full" src='https://images.unsplash.com/photo-1518977822534-7049a61ee0c2?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt="Sunset in the mountains"/>
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">{product.name}</div>
@@ -35,7 +43,7 @@ export const Item = ({product}) => {
                     </div>
                 </div>
                 <div className='mt-4 block'>
-                    <button className='px-3 py-2 rounded-xl bg-black w-full text-white hover:bg-green-800'>
+                    <button className='px-3 py-2 rounded-xl bg-black w-full text-white hover:bg-green-800' onClick={handleAddClick}>
                         Añadir a la Cesta
                     </button>
                 </div>
