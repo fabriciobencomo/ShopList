@@ -60,7 +60,7 @@
             "id": 8,
             "name": "Col",
             "category": "vegetales",
-            "precio": "3",
+            "precio": "3.00",
             "origen": "Francia",
             "img": "url"
         },
@@ -68,7 +68,7 @@
             "id": 9,
             "name": "Rábanos",
             "category": "vegetales",
-            "precio": ".95",
+            "precio": "0.95",
             "origen": "Francia",
             "img": "url"
         },

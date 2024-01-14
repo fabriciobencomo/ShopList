@@ -6,7 +6,7 @@ import {
 import { ListShopPage } from './shop/pages/ListShopPage'
 import { Item } from "./shop/components";
 import { Provider } from "react-redux";
-import { store } from "./store/ui/store";
+import { store } from "./store/store";
 
 const router = createBrowserRouter([
   {

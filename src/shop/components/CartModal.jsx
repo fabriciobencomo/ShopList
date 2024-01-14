@@ -1,8 +1,16 @@
-import { useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
+import { useUiStore } from "../../hooks/useUiStore"
 
 export const CartModal = () => {
 
+    const dispatch = useDispatch()
     const {cart, total} = useSelector(state => state.cart)
+
+    const{closeModal} = useUiStore()
+
+    const onHandleCloseModal = () => {
+        dispatch(closeModal())
+    }
 
   return (
     <div>
@@ -10,7 +18,7 @@ export const CartModal = () => {
             <div class="px-6 py-4 ">
                 <div className="py-2 mb-2 flex justify-between">
                     <p className="font-bold text-lg">Mi Carrito</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer rounded-full p-1 hover:bg-gray-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer rounded-full p-1 hover:bg-gray-100" onClick={onHandleCloseModal}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                     </svg>
                 </div>
