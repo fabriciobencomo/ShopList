@@ -3,7 +3,7 @@ import { cartSlice } from "../cart/cartSlice";
 
 export const store = configureStore({
     reducer: {
-        cart: cartSlice.reducer
+        cart: cartSlice.reducer,
     },
     middleware: (getDefaultMiddleware) => getDefaultMiddleware({
         serializableCheck: false

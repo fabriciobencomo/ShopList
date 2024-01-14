@@ -19,8 +19,8 @@ export const Item = ({product}) => {
   } 
 
   const handleAddClick = () => {
-    product.cantidad = counter
-    savingItemInCart(product)
+    const newProduct = {...product, cantidad:counter}
+    savingItemInCart(newProduct)
   }
 
   return (

@@ -9,12 +9,8 @@ export const cartSlice = createSlice({
         reducers: {
                 addToCart: (state, {payload} ) => {
                         
-                        state.cart = state.cart.map(product => {
-                                return product
-                        });
                         state.cart.push(payload)
                         state.total += payload.precio * payload.cantidad
-                        console.log(state.cart, state.total)
 
                 },
                 removeFromCart: (state, {payload}) => {
