@@ -1,16 +1,34 @@
 import {Item} from '.'
 import { getProductsByCategory } from '../../helpers/getProductsByCategory'
 import { getProducts } from '../../helpers/getProducts';
+import { useEffect, useState } from 'react';
 
 
 export const ListItems = ({category}) => {
 
+ 
+    const [products, setProducts] = useState(getProducts())
+    const [sortBy, setSortBy] = useState('')
 
-    let products = getProducts()
-    if(category){
-        products = getProductsByCategory(category)
+    
+    const orderProducts = (sortBy) => {
+        if(sortBy == 'menor' ){
+            setSortBy('menor')
+            setProducts(products.sort((a, b) => a.precio - b.precio))
+        }else{
+            setSortBy('mayor')
+            setProducts(products.sort((a, b) => a.precio - b.precio).reverse())
+        }
     }
 
+    const sortItems = () => {
+        const value = document.getElementById('sortBy').value
+        orderProducts(value)
+    }
+
+    useEffect(() => {
+        setProducts(getProductsByCategory(category))
+    }, [category])
     
   return (
     <>
@@ -18,12 +36,12 @@ export const ListItems = ({category}) => {
       <div className='grid grid-cols-3 gap-4 mt-8'>
         {/* Filters */}
         <div className='flex gap-4'>
-            <select name="" id="" className='border-2 border-green-600 p-2 rounded-md text-sm' placeholder='Filtar Por'>
-                <option value="Precio: alto-bajo">Precio: alto-bajo</option>
-                <option value="Precio: bajo-alto">Precio: bajo-alto</option>
+            <select name="sortBy" id="sortBy" className='border-2 border-green-600 p-2 rounded-md text-sm' placeholder='Filtar Por'>
+                <option value="mayor">Precio: alto-bajo</option>
+                <option value="menor">Precio: bajo-alto</option>
             </select>
             <button className='pt-1'>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="#16a34a" className="w-6 h-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="#16a34a" className="w-12 h-12 hover:bg-gray-100 p-3 rounded-full" onClick={sortItems}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
                 </svg>
             </button>
