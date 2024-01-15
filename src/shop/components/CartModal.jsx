@@ -1,5 +1,7 @@
 import { useDispatch, useSelector } from "react-redux"
 import { useUiStore } from "../../hooks/useUiStore"
+import { Link } from "react-router-dom"
+
 
 export const CartModal = () => {
 
@@ -44,9 +46,11 @@ export const CartModal = () => {
                     </div>
                 </div>
                 <div id='button-pay' className="pt-6 px-4">
-                    <button className='px-3 py-2 rounded-xl bg-green-700 w-full text-white hover:bg-green-800 font-bold'>
-                        Pagar
-                    </button>
+                    <Link to='/cart'>
+                        <button className='px-3 py-2 rounded-xl bg-green-700 w-full text-white hover:bg-green-800 font-bold'>
+                            Pagar
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
