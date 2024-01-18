@@ -1,6 +1,7 @@
 import {
   createBrowserRouter,
   RouterProvider,
+  useParams,
 } from "react-router-dom";
 
 import { ListShopPage } from './shop/pages/ListShopPage'
@@ -8,6 +9,8 @@ import { PaymentPage } from "./shop/pages/paymentPage";
 import { Item } from "./shop/components";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
+
+
 
 const router = createBrowserRouter([
   {
@@ -21,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "cart",
     element: <PaymentPage/>,
+  },
+  {
+    path: ":q",
+    element: <ListShopPage/>,
   },
 ]);
 

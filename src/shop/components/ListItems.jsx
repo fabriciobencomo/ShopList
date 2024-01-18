@@ -2,6 +2,10 @@ import {Item} from '.'
 import { getProductsByCategory } from '../../helpers/getProductsByCategory'
 import { getProducts } from '../../helpers/getProducts';
 import { useEffect, useState } from 'react';
+import queryString from 'query-string'
+import { useLocation, useNavigate } from 'react-router-dom';
+import { getProductsByName } from '../../helpers/getProductsByName';
+import { useForm } from '../../hooks/useForm';
 
 
 export const ListItems = ({category}) => {
@@ -27,9 +31,29 @@ export const ListItems = ({category}) => {
     }
 
     useEffect(() => {
-        setProducts(getProductsByCategory(category))
+        if(category){
+            setProducts(getProductsByCategory(category))
+        }
     }, [category])
     
+    const location = useLocation()
+    const navigate = useNavigate()
+  
+    const {q = ''} = queryString.parse( location.search ) 
+    const productsName = getProductsByName(q)
+
+    const {searchText, onInputChange} = useForm({
+      searchText: q
+    })
+
+
+    const searchProducts = (e) => {
+        e.preventDefault()
+        if(searchText.trim().length <= 1) return
+        navigate(`?q=${searchText}`)
+        category = ''
+    }
+
   return (
     <>
         {/* Options */}
@@ -48,10 +72,10 @@ export const ListItems = ({category}) => {
         </div>
         {/* SearchBar */}
         <div className='col-span-2 block mr-12'>
-            <form>   
+            <form onSubmit={searchProducts}>   
                 <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                 <div class="relative">
-                    <input type="search" id="default-search" class="w-3/5 p-2 ps-10 text-sm border-2 text-gray-900  border-gray-500 rounded-lg bg-white" placeholder="Busca un Producto..." required />
+                    <input type="text" id="default-search" class="w-3/5 p-2 ps-10 text-sm border-2 text-gray-900  border-gray-500 rounded-lg bg-white" placeholder="Busca un Producto..." onChange={onInputChange} value={ searchText } name="searchText"/>
                     <div class="absolute inset-y-0 start-0 flex items-center ps-3">
                         <button type='submit'>
                             <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -67,11 +91,17 @@ export const ListItems = ({category}) => {
         {/* List Items */}
 
         <div className='grid grid-cols-5 mt-20 gap-10'>
-            {
+        {
+            (q === '') ? (
                 products.map((product, id) => (
                     <Item key={id} product={product}></Item>
-                ))
-            }
+                )))
+              :
+              ( productsName.map(product =>  (
+                <Item key={product.id} product={product}></Item>
+              )))
+          }
+
         </div> 
     </>
   )
