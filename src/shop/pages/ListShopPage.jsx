@@ -20,7 +20,7 @@ export const ListShopPage = () => {
             {
               isCartModalOpen ? (
                 <div className="relative">
-                  <div className="absolute ml-12 left-3/4 z-0 top-0.5 bottom-0">
+                  <div className="absolute ml-12 left-3/4 z-0 top-1 bottom-0">
                     <CartModal></CartModal>
                   </div>
                 </div> ) : ''

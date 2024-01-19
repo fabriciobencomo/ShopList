@@ -13,7 +13,6 @@ export const ListItems = ({category}) => {
  
     const [products, setProducts] = useState(getProducts())
     const [sortBy, setSortBy] = useState('')
-
     
     const orderProducts = (sortBy) => {
         if(sortBy == 'menor' ){
@@ -30,11 +29,6 @@ export const ListItems = ({category}) => {
         orderProducts(value)
     }
 
-    useEffect(() => {
-        if(category){
-            setProducts(getProductsByCategory(category))
-        }
-    }, [category])
     
     const location = useLocation()
     const navigate = useNavigate()
@@ -50,9 +44,15 @@ export const ListItems = ({category}) => {
     const searchProducts = (e) => {
         e.preventDefault()
         if(searchText.trim().length <= 1) return
-        navigate(`?q=${searchText}`)
         category = ''
+        navigate(`/?q=${searchText}`)
     }
+
+    useEffect(() => {
+        if(category){
+            setProducts(getProductsByCategory(category))
+        }
+    }, [category])
 
   return (
     <>
@@ -75,7 +75,7 @@ export const ListItems = ({category}) => {
             <form onSubmit={searchProducts}>   
                 <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                 <div class="relative">
-                    <input type="text" id="default-search" class="w-3/5 p-2 ps-10 text-sm border-2 text-gray-900  border-gray-500 rounded-lg bg-white" placeholder="Busca un Producto..." onChange={onInputChange} value={ searchText } name="searchText"/>
+                    <input type="text" id="default-search" class="w-3/5 p-2 ps-10 text-sm border-2 text-gray-900  border-gray-500 rounded-lg bg-white" placeholder="Busca un Producto..." onChange={onInputChange}  name="searchText"/>
                     <div class="absolute inset-y-0 start-0 flex items-center ps-3">
                         <button type='submit'>
                             <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -94,7 +94,7 @@ export const ListItems = ({category}) => {
         {
             (q === '') ? (
                 products.map((product, id) => (
-                    <Item key={id} product={product}></Item>
+                    <Item key={product.id} product={product}></Item>
                 )))
               :
               ( productsName.map(product =>  (

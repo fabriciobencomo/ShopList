@@ -29,8 +29,8 @@ export const CartModal = () => {
                     <hr />
                     <div className="mt-2 flex flex-col gap-2 pb-12">
                         {
-                            cart.map(item => (
-                                <div className="flex gap-2 justify-between">
+                            cart.map((item, id) => (
+                                <div className="flex gap-2 justify-between" key={id}>
                                     <p className="text-gray-400">{item.name} x {item.cantidad}</p>
                                     <p className="font-bold"> {item.precio * item.cantidad}$</p>
                                 </div>

@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux"
-import { addToCart } from "../store/cart/cartSlice"
+import { addToCart, removeFromCart } from "../store/cart/cartSlice"
 
 export const useCartStore = () => {
     const dispatch = useDispatch()
@@ -10,7 +10,12 @@ export const useCartStore = () => {
         dispatch(addToCart(item))
     }
 
+    const removingItemInCart = (item) => {
+        dispatch(removeFromCart(item))
+    }
+
     return {
-        savingItemInCart
+        savingItemInCart,
+        removingItemInCart
     }
 }
