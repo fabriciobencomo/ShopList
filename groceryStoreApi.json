@@ -6,7 +6,7 @@
             "category": "vegetales",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230799/grocerystore/tomates_t1akeb.jpg"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "category": "vegetales",
             "precio": "1.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230746/grocerystore/pepinos_jkoc42.jpg"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "category": "vegetales",
             "precio": "1.80",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230804/grocerystore/zanahorias_wc40zu.jpg"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "category": "vegetales",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230812/grocerystore/esparragos_ttrrxc.jpg"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "category": "vegetales",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230613/grocerystore/pimentones_v7k3hv.jpg"
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "category": "vegetales",
             "precio": "0.70",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230727/grocerystore/endives_p9nccd.jpg"
         },
         {
             "id": 7,
@@ -54,7 +54,7 @@
             "category": "vegetales",
             "precio": "2.60",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230811/grocerystore/alcachofas_pcrgik.jpg"
         },
         {
             "id": 8,
@@ -62,7 +62,7 @@
             "category": "vegetales",
             "precio": "3.00",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230785/grocerystore/col_mfqp3e.jpg"
         },
         {
             "id": 9,
@@ -70,7 +70,7 @@
             "category": "vegetales",
             "precio": "0.95",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230710/grocerystore/rabanos_czw05z.jpg"
         },
         {
             "id": 10,
@@ -78,7 +78,7 @@
             "category": "vegetales",
             "precio": "1.20",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230788/grocerystore/cebollas_kkrwna.jpg"
         },
         {
             "id": 11,
@@ -86,15 +86,15 @@
             "category": "vegetales",
             "precio": "1.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230782/grocerystore/papas_jfmf9j.jpg"
         },
         {
             "id": 12,
-            "name": "Calabaciones",
+            "name": "Calabacines",
             "category": "vegetales",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230692/grocerystore/calabacines_myjadl.jpg"
         },
         {
             "id": 13,
@@ -102,7 +102,7 @@
             "category": "frutos secos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229628/grocerystore/roberto-patti-GUZHqrk_TdU-unsplash_m1qqxu.jpg"
         },
         {
             "id": 14,
@@ -110,7 +110,7 @@
             "category": "frutos secos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230438/grocerystore/joanna-kosinska-oPsaQVRaXKI-unsplash_hflcev.jpg"
         },
         {
             "id": 15,
@@ -118,7 +118,7 @@
             "category": "frutos secos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230449/grocerystore/chuttersnap-PYBmNk304G4-unsplash_nki5p3.jpg"
         },
         {
             "id": 16,
@@ -134,7 +134,7 @@
             "category": "frutos secos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230447/grocerystore/tom-hermans-3w6qAk35xAg-unsplash_wwux7h.jpg"
         },
         {
             "id": 18,
@@ -142,7 +142,7 @@
             "category": "frutos secos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230381/grocerystore/vladislav-nikonov-13lLAWadKwU-unsplash_hbzjiq.jpg"
         },
         {
             "id": 19,
@@ -150,7 +150,7 @@
             "category": "frutos secos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230320/grocerystore/ppavliuk-kKFz7EX9M0U-unsplash_bpbbpb.jpg"
         },
         {
             "id": 20,
@@ -158,7 +158,7 @@
             "category": "frutos secos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230329/grocerystore/abril-chavira-9kXfJOSrBWM-unsplash_tasspn.jpg"
         },
         {
             "id": 21,
@@ -166,7 +166,7 @@
             "category": "frutos secos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230345/grocerystore/engin-akyurt-nv0VMT-dM3c-unsplash_s3gl8l.jpg"
         },
         {
             "id": 22,
@@ -174,7 +174,7 @@
             "category": "frutos secos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230376/grocerystore/chuttersnap-J8_U_vokuKk-unsplash_vj7o6l.jpg"
         },
         {
             "id": 23,
@@ -182,7 +182,7 @@
             "category": "frutas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229729/grocerystore/eduardo-sanchez-3KX2nLszHsE-unsplash_vdwrel.jpg"
         },
         {
             "id": 24,
@@ -190,7 +190,7 @@
             "category": "frutas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229607/grocerystore/david-kohler-gBdG886bLDY-unsplash_qxawom.jpg"
         },
         {
             "id": 25,
@@ -198,7 +198,7 @@
             "category": "frutas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229562/grocerystore/karolina-kolodziejczak-XUFRRHBMw1k-unsplash_ygkdyv.jpg"
         },
         {
             "id": 26,
@@ -206,7 +206,7 @@
             "category": "frutas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230673/grocerystore/peras_zcn9m3.jpg"
         },
         {
             "id": 27,
@@ -214,7 +214,7 @@
             "category": "frutas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230654/grocerystore/manzanas_tachhy.jpg"
         },
         {
             "id": 28,
@@ -222,7 +222,7 @@
             "category": "frutas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229558/grocerystore/brett-jordan-zrF6ACPLhPM-unsplash_sehww7.jpg"
         },
         {
             "id": 30,
@@ -230,7 +230,7 @@
             "category": "frutas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229703/grocerystore/phoenix-han-ZS_RypKo9sk-unsplash_zkygai.jpg"
         },
         {
             "id": 31,
@@ -238,7 +238,7 @@
             "category": "frutas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706236551/grocerystore/chang-duong-bogrLtEaJ2Q-unsplash_kv9qai.jpg"
         },
         {
             "id": 32,
@@ -246,7 +246,7 @@
             "category": "frutas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229637/grocerystore/dagmara-dombrovska-zBiHPoQ4WGs-unsplash_rbpi0f.jpg"
         },
         {
             "id": 33,
@@ -270,7 +270,7 @@
             "category": "hierbas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230157/grocerystore/team-voyas-vIiye0QDryo-unsplash_ub73ot.jpg"
         },
         {
             "id": 36,
@@ -278,7 +278,7 @@
             "category": "hierbas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230129/grocerystore/engin-akyurt-Pj8qDxCuMTs-unsplash_nleluv.jpg"
         },
         {
             "id": 37,
@@ -286,7 +286,7 @@
             "category": "hierbas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230100/grocerystore/daiga-ellaby-ClWvcrkBhMY-unsplash_ewxifw.jpg"
         },
         {
             "id": 38,
@@ -350,7 +350,7 @@
             "category": "bebidas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230317/grocerystore/greg-rosenke-rJxh46Mf5ZQ-unsplash_qdgcbg.jpg"
         },
         {
             "id": 46,
@@ -358,15 +358,7 @@
             "category": "bebidas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
-        },
-        {
-            "id": 47,
-            "name": "Gatorade",
-            "category": "bebidas",
-            "precio": "2.50",
-            "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230342/grocerystore/mahbod-akhzami-VM6uuMFPIGM-unsplash_nw2o5l.jpg"
         },
         {
             "id": 48,
@@ -374,7 +366,7 @@
             "category": "bebidas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230242/grocerystore/content-pixie-JeJMxHI0Um8-unsplash_f1rynh.jpg"
         },
         {
             "id": 49,
@@ -382,7 +374,7 @@
             "category": "bebidas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230244/grocerystore/engin-akyurt-3ORoQEJY9LA-unsplash_zm231e.jpg"
         },
         {
             "id": 50,
@@ -390,7 +382,7 @@
             "category": "bebidas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230268/grocerystore/jesper-brouwers-B2Cs6kw5VNM-unsplash_rxkdek.jpg"
         },
         {
             "id": 51,
@@ -398,7 +390,7 @@
             "category": "bebidas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230219/grocerystore/teacora-rooibos-RKDP3D-6G5E-unsplash_e5f3f8.jpg"
         },
         {
             "id": 52,
@@ -406,7 +398,7 @@
             "category": "bebidas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230261/grocerystore/elizabeth-dunne-ccV4kUrSYIM-unsplash_yi5hyu.jpg"
         },
         {
             "id": 53,
@@ -414,7 +406,7 @@
             "category": "bebidas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230209/grocerystore/jugoslocos-QD4yCjlD44A-unsplash_v8game.jpg"
         },
         {
             "id": 55,
@@ -422,7 +414,7 @@
             "category": "bebidas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230193/grocerystore/mathias-tonnesson-GwPKJQUU1Dw-unsplash_u29r6u.jpg"
         },
         {
             "id": 56,
@@ -430,23 +422,7 @@
             "category": "bebidas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
-        },
-        {
-            "id": 57,
-            "name": "Refresco Dietetico",
-            "category": "bebidas",
-            "precio": "2.50",
-            "origen": "Francia",
-            "img": "url"
-        },
-        {
-            "id": 58,
-            "name": "Salchichas",
-            "category": "charcuteria",
-            "precio": "2.50",
-            "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230191/grocerystore/dani-ZLqxSzvVr7I-unsplash_julojf.jpg"
         },
         {
             "id": 59,
@@ -454,7 +430,7 @@
             "category": "charcuteria",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229859/grocerystore/rachel-clark-MhI8HVjqJf8-unsplash_kjponm.jpg"
         },
         {
             "id": 60,
@@ -462,7 +438,7 @@
             "category": "charcuteria",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229893/grocerystore/jez-timms-6JQMjhqpVhE-unsplash_rikgav.jpg"
         },
         {
             "id": 61,
@@ -470,7 +446,7 @@
             "category": "charcuteria",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229816/grocerystore/onder-ortel-AWi9-8mgVUo-unsplash_jy7xgw.jpg"
         },
         {
             "id": 62,
@@ -478,7 +454,7 @@
             "category": "charcuteria",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229772/grocerystore/cara-beth-buie-IN3Mr4A4SqQ-unsplash_ptjt0j.jpg"
         },
         {
             "id": 63,
@@ -486,7 +462,7 @@
             "category": "charcuteria",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229797/grocerystore/michelle-shelly-captures-it-TJzhTJ2U8Jo-unsplash_nezebt.jpg"
         },
         {
             "id": 64,
@@ -494,7 +470,7 @@
             "category": "charcuteria",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229735/grocerystore/pavel-subbotin-c0mQ2BImbxk-unsplash_kkwozd.jpg"
         },
         {
             "id": 65,
@@ -502,23 +478,7 @@
             "category": "charcuteria",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
-        },
-        {
-            "id": 66,
-            "name": "Mortadela",
-            "category": "charcuteria",
-            "precio": "2.50",
-            "origen": "Francia",
-            "img": "url"
-        },
-        {
-            "id": 67,
-            "name": "Salchichón",
-            "category": "charcuteria",
-            "precio": "2.50",
-            "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229696/grocerystore/anita-peeples-KMtq9dy-9Vc-unsplash_b539ii.jpg"
         },
         {
             "id": 68,
@@ -526,7 +486,7 @@
             "category": "charcuteria",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229728/grocerystore/edward-howell-mOI-3Ub14AE-unsplash_ehxa1g.jpg"
         },
         {
             "id": 69,
@@ -534,7 +494,7 @@
             "category": "charcuteria",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229690/grocerystore/jez-timms-gMW2NZ7JGrE-unsplash_zg59vu.jpg"
         },
         {
             "id": 70,
@@ -542,7 +502,7 @@
             "category": "desayunos",
             "precio": "3.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229685/grocerystore/elena-leya-CNk74-V1BG8-unsplash_groixg.jpg"
         },
         {
             "id": 71,
@@ -550,7 +510,7 @@
             "category": "desayunos",
             "precio": "2.75",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230019/grocerystore/ovidiu-creanga-iNWjJJXeym4-unsplash_lscvf5.jpg"
         },
         {
             "id": 72,
@@ -558,15 +518,7 @@
             "category": "desayunos",
             "precio": "4.00",
             "origen": "Francia",
-            "img": "url"
-        },
-        {
-            "id": 73,
-            "name": "Batido de proteínas con plátano y mantequilla de maní",
-            "category": "desayunos",
-            "precio": "3.25",
-            "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230047/grocerystore/caroline-vass-C2HUZQPZazw-unsplash_lnrrdj.jpg"
         },
         {
             "id": 74,
@@ -574,7 +526,7 @@
             "category": "desayunos",
             "precio": "5.00",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230087/grocerystore/julius--DsFf2weXHc-unsplash_jaay2f.jpg"
         },
         {
             "id": 75,
@@ -582,15 +534,7 @@
             "category": "desayunos",
             "precio": "4.50",
             "origen": "Francia",
-            "img": "url"
-        },
-        {
-            "id": 76,
-            "name": "Panqueques de avena con miel y bayas",
-            "category": "desayunos",
-            "precio": "4.50",
-            "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230008/grocerystore/yoori-koo-a2f9J4U0444-unsplash_si7dbx.jpg"
         },
         {
             "id": 77,
@@ -598,15 +542,15 @@
             "category": "desayunos",
             "precio": "3.75",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230094/grocerystore/sofiya-levchenko-ya5oLwJff4g-unsplash_xgc4la.jpg"
         },
         {
             "id": 78,
-            "name": "Cereal integral con leche de almendras",
+            "name": "Panqueques de avena con azucar glass y frutas",
             "category": "desayunos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230004/grocerystore/alisa-anton-9RDmxIVLXXQ-unsplash_llscsz.jpg"
         },
         {
             "id": 79,
@@ -614,7 +558,7 @@
             "category": "desayunos",
             "precio": "4.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230202/grocerystore/ryan-concepcion-50KffXbjIOg-unsplash_aenzv4.jpg"
         },
         {
             "id": 80,
@@ -622,7 +566,7 @@
             "category": "desayunos",
             "precio": "4.75",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230150/grocerystore/kimzy-nanney-LNDgBERq8Q0-unsplash_mdzdgd.jpg"
         },
         {
             "id": 81,

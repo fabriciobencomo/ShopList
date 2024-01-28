@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux'
 import logo from '../../assets/logo.png'
 import { useUiStore } from '../../hooks/useUiStore'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
     const{isCartModalOpen} = useSelector(state => state.ui)
@@ -19,12 +20,12 @@ export const Navbar = () => {
             <div className="flex flex-row justify-between">
                 {/* Logo */}
                 <div className="">
-                    <img src={logo} alt="Logo" className='w-24 h-12'/>
+                    <Link to={'/'}><img src={logo} alt="Logo" className='w-24 h-12 cursor-pointer'/></Link>
                 </div>
                 {/* Menu */}
                 <div>
                     <ul className="flex space-x-2 bold gap-10">
-                        <li className='cursor-pointer hover:text-lime-700'>Tienda</li>
+                        <Link to={'/'}><li className='cursor-pointer hover:text-lime-700'>Tienda</li></Link>
                         <li className='cursor-pointer hover:text-lime-700'>Puntos de Venta</li>
                         <li className='cursor-pointer hover:text-lime-700'>Suscripciones</li>
                         <li className='cursor-pointer hover:text-lime-700'>Blogs</li>

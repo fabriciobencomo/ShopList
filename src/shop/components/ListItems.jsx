@@ -52,7 +52,7 @@ export const ListItems = ({category}) => {
         if(category){
             setProducts(getProductsByCategory(category))
         }
-    }, [category])
+    }, [category, q])
 
   return (
     <>
@@ -100,6 +100,14 @@ export const ListItems = ({category}) => {
               ( productsName.map(product =>  (
                 <Item key={product.id} product={product}></Item>
               )))
+          }
+
+          {
+            (productsName.length == 0) ? (
+                <div className='text-center font-bold text-2xl'>Sin Resultados...</div>
+                )
+                :
+                ('')
           }
 
         </div> 
