@@ -254,15 +254,7 @@
             "category": "hierbas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
-        },
-        {
-            "id": 34,
-            "name": "Eneldo",
-            "category": "hierbas",
-            "precio": "2.50",
-            "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230171/grocerystore/tone-hoines-nN6UBJ-xLfM-unsplash_mqg44v.jpg"
         },
         {
             "id": 35,
@@ -289,28 +281,12 @@
             "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706230100/grocerystore/daiga-ellaby-ClWvcrkBhMY-unsplash_ewxifw.jpg"
         },
         {
-            "id": 38,
-            "name": "Oregano",
-            "category": "hierbas",
-            "precio": "2.50",
-            "origen": "Francia",
-            "img": "url"
-        },
-        {
             "id": 39,
             "name": "Romero",
             "category": "hierbas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
-        },
-        {
-            "id": 40,
-            "name": "Salvia",
-            "category": "hierbas",
-            "precio": "2.50",
-            "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229971/grocerystore/fulvio-ciccolo-GlWbYpz8zzY-unsplash_u6hk8d.jpg"
         },
         {
             "id": 41,
@@ -318,7 +294,7 @@
             "category": "hierbas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229882/grocerystore/anja-junghans-qjuJBB5BsAY-unsplash_czbqu7.jpg"
         },
         {
             "id": 42,
@@ -326,7 +302,7 @@
             "category": "hierbas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229965/grocerystore/alexander-schimmeck-WugkvYxkM2s-unsplash_r8rjm2.jpg"
         },
         {
             "id": 43,
@@ -334,7 +310,7 @@
             "category": "hierbas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229867/grocerystore/chandan-chaurasia-N73L0EzbJ8Y-unsplash_fukuym.jpg"
         },
         {
             "id": 44,
@@ -342,7 +318,7 @@
             "category": "hierbas",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1706229907/grocerystore/magdalena-olszewska-9rt6gV_IjhA-unsplash_m6dlqh.jpg"
         },
         {
             "id": 45,

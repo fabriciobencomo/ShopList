@@ -57,9 +57,9 @@ export const ListItems = ({category}) => {
   return (
     <>
         {/* Options */}
-      <div className='grid grid-cols-3 gap-4 mt-8'>
+      <div className='block ml-4 md:grid md:grid-cols-3 gap-4 mt-8'>
         {/* Filters */}
-        <div className='flex gap-4'>
+        <div className='hidden md:flex gap-4'>
             <select name="sortBy" id="sortBy" className='border-2 border-green-600 p-2 rounded-md text-sm' placeholder='Filtar Por'>
                 <option value="mayor">Precio: alto-bajo</option>
                 <option value="menor">Precio: bajo-alto</option>
@@ -71,7 +71,7 @@ export const ListItems = ({category}) => {
             </button>
         </div>
         {/* SearchBar */}
-        <div className='col-span-2 block mr-12'>
+        <div className='md:col-span-2 block mr-12'>
             <form onSubmit={searchProducts}>   
                 <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                 <div class="relative">
@@ -90,7 +90,7 @@ export const ListItems = ({category}) => {
 
         {/* List Items */}
 
-        <div className='grid grid-cols-5 mt-20 gap-10'>
+        <div className='grid xs:grild-cols-1 sm:grid-cols-3 lg:grid-cols-5 mt-20 gap-10'>
         {
             (q === '') ? (
                 products.map((product, id) => (

@@ -25,9 +25,9 @@ export const Item = ({product}) => {
 
   return (
     <div>
-        <div class="max-w-sm rounded-lg overflow-hidden shadow-xl">
-            <img class="w-full h-40" src={product.img ? product.img : 'https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'} alt="Sunset in the mountains"/>
-            <div class="px-6 py-4 min-h-64 max-h-64 flex flex-col justify-between">
+        <div class="mx-auto max-w-xs md:max-w-sm rounded-lg overflow-hidden shadow-xl">
+            <img class="md:w-full md:h-40" src={product.img ? product.img : 'https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'} alt="Sunset in the mountains"/>
+            <div class="px-6 py-4 md:min-h-64 max-h-64 flex flex-col justify-between">
                 <div className=' max-h-32 overflow-auto'>
                   <div class="font-bold text-xl mb-2">{product.name}</div>
                   <p className='text-gray-500'>Origen-{product.origen}</p>
