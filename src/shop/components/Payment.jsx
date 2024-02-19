@@ -14,13 +14,13 @@ export const Payment = () => {
   }
 
   return (
-    <div className='grid grid-cols-3 pt-20 px-14 gap-8'>
+    <div className='flex flex-col md:grid md:grid-cols-3 pt-20 px-14 md:gap-8 '>
       <div className='col-span-2'>
         {
           cart.map((item, id) => (
-            <div className='flex justify-around' key={id}>
+            <div className='flex flex-col md:flex-row justify-around mb-10' key={id}>
               <div className='w-52 h-52 p-2'>
-                <img className="rounded-lg" src="https://images.unsplash.com/photo-1622205313162-be1d5712a43f?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                <img className="rounded-lg" src={item.img} alt={item.name} />
               </div>
               <div className='flex flex-col gap-2'>
                 <p className='font-bold'>{item.name}</p>
@@ -42,10 +42,6 @@ export const Payment = () => {
             <div className='flex justify-between'>
               <p>Subtotal</p>
               <p>{total.toFixed(2)}$</p>
-            </div>
-            <div className='flex justify-between'> 
-              <p>Gastos de Envio</p>  
-              <p>2.30$</p>
             </div>
             <hr />
             <div className='flex justify-between'>

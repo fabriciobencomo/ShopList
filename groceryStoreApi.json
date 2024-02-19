@@ -126,7 +126,7 @@
             "category": "frutos secos",
             "precio": "2.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708322324/grocerystore/engin-akyurt-SCpXCeUvgdY-unsplash_qe3zp8.jpg"
         },
         {
             "id": 17,
@@ -549,8 +549,8 @@
             "name": "Sopa de pollo con fideos",
             "category": "sopas",
             "precio": "2.50",
-            "origen": "Francia",
-            "img": "url"
+            "origen": "China",
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708322606/grocerystore/max-griss-YpfRCe5lda0-unsplash_pery1m.jpg"
         },
         {
             "id": 82,
@@ -558,15 +558,15 @@
             "category": "sopas",
             "precio": "3.00",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708322566/grocerystore/farhad-ibrahimzade-3KHFUgr9Ckw-unsplash_g1phjf.jpg"
         },
         {
             "id": 83,
             "name": "Sopa de lentejas",
             "category": "sopas",
             "precio": "2.75",
-            "origen": "Francia",
-            "img": "url"
+            "origen": "Brasil",
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708322577/grocerystore/steve-tsang-MP_A0OK_O60-unsplash_admosl.jpg"
         },
         {
             "id": 84,
@@ -574,31 +574,31 @@
             "category": "sopas",
             "precio": "3.50",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708322906/grocerystore/sheri-silver-FjxEnioTNs0-unsplash_jjvahx.jpg"
         },
         {
             "id": 85,
             "name": "Sopa de pescado",
             "category": "sopas",
             "precio": "4.00",
-            "origen": "Francia",
-            "img": "url"
+            "origen": "España",
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708322921/grocerystore/emy-XoByiBymX20-unsplash_rjiqtn.jpg"
         },
         {
             "id": 86,
             "name": "Sopa de tortilla mexicana",
             "category": "sopas",
             "precio": "3.25",
-            "origen": "Francia",
-            "img": "url"
+            "origen": "Mexico",
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708323037/grocerystore/13351-chicken-tortilla-soup-i-DDMFS-4x3-746173decf5548e581fd08e713a8adba_ayad9l.webp"
         },
         {
             "id": 87,
             "name": "Sopa de calabaza butternut",
             "category": "sopas",
             "precio": "3.75",
-            "origen": "Francia",
-            "img": "url"
+            "origen": "Australia",
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708322573/grocerystore/yu-jinyang-L06kEGB3SlU-unsplash_cx1cfj.jpg"
         },
         {
             "id": 88,
@@ -606,23 +606,23 @@
             "category": "sopas",
             "precio": "3.00",
             "origen": "Francia",
-            "img": "url"
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708323260/grocerystore/best-potato-leek-soup-recipe-hero-03-bd6168116090427b91f1c0957dbb1024_wpuxdv.webp"
         },
         {
             "id": 89,
             "name": "Sopa de mariscos",
             "category": "sopas",
             "precio": "4.50",
-            "origen": "Francia",
-            "img": "url"
+            "origen": "España",
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708323581/grocerystore/sopa-de-mariscos-spanish-seafood-soup-94102-1_yc8h9k.jpg"
         },
         {
             "id": 90,
             "name": "Sopa de miso",
             "category": "sopas",
             "precio": "3.00",
-            "origen": "Francia",
-            "img": "url"
+            "origen": "Japón",
+            "img": "https://res.cloudinary.com/ddjznfnvc/image/upload/v1708323586/grocerystore/dan-dealmeida-Qhqj0tcXkbg-unsplash_tzwdhc.jpg"
         }
     ],
 
