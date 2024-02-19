@@ -45,7 +45,7 @@ export const Navbar = () => {
                         <Link to={'/'}><li className='cursor-pointer hover:text-green-700'>Tienda</li></Link>
                         <Link to={'/location'}><li className='cursor-pointer hover:text-green-700'>Puntos de Venta</li></Link>
                         <Link to={'/pricing'}><li className='cursor-pointer hover:text-green-700'>Suscripciones</li></Link>
-                        <li className='cursor-pointer hover:text-green-700'>Blogs</li>
+                        <Link to={'/blog'}><li className='cursor-pointer hover:text-green-700'>Blogs</li></Link>
                     </ul>
                     <div className='md:hidden'>
                         <button data-collapse-toggle="navbar-user" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-user" aria-expanded="false" onClick={onChangeBurgerMenu}>
@@ -66,7 +66,7 @@ export const Navbar = () => {
                                 <Link to={'/pricing'}><a href="#" className="block py-2 px-3 rounded hover:bg-gray-100 hover:text-green-800 md:hover:bg-transparent bg-green-800 text-white">Suscripciones</a></Link>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 px-3 rounded hover:bg-gray-100 hover:text-green-800 md:hover:bg-transparent bg-green-800 text-white">Blogs</a>
+                                <Link to={'/blog'}><a href="#" className="block py-2 px-3 rounded hover:bg-gray-100 hover:text-green-800 md:hover:bg-transparent bg-green-800 text-white">Blogs</a></Link>
                             </li>
                             <li>
                                 <Link to='/cart'><a href="#" className="block py-2 px-3 rounded hover:bg-gray-100 hover:text-green-800 md:hover:bg-transparent bg-green-800 text-white">Pagar</a></Link>
